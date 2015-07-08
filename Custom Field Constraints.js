@@ -1,8 +1,7 @@
-// JavaScript source code
 tau.mashups
     .addModule('CFConstraints.config', function () {
         return [{
-            processId: 12, //надо поставить 14 = 1C Kanban
+            processId: 14, //надо поставить 14 = 1C Kanban
             constraints: {
                 'userstory': {
                     'entityStates': [
@@ -37,7 +36,7 @@ tau.mashups
             }
         },
         {
-            processId: 12, //надо поставить 15 = 1C IAM Kanban
+            processId: 15, //надо поставить 15 = 1C IAM Kanban
             constraints: {
                 'userstory': {
                     'entityStates': [
